@@ -1,0 +1,96 @@
+/* Estilização do fundo da página */
+body {
+    background-color: #f0f8ff; /* Cor suave de fundo */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Estilização do título */
+h1 {
+    text-align: center; /* Centraliza o título */
+    color: rgb(103, 56, 148); /* Cor do título */
+}
+
+/* Estilização do parágrafo */
+p {
+    font-size: 1.2em; /* Tamanho maior da fonte */
+    text-align: justify; /* Justifica o parágrafo */
+    margin: 20px;
+    padding: 10px;
+    background-color: #ffffff;
+    border-radius: 10px;
+}
+
+/* Botão */
+button {
+  display: block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #336699;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#mensagem {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Estilização da lista não ordenada */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0; /* Maior espaçamento entre os itens */
+}
+
+/* Estilização da imagem */
+.imagem-hobby {
+    border-radius: 15px; /* Bordas arredondadas */
+    width: 200px; /* Tamanho adequado */
+    margin-top: 20px;
+}
+
+/* Estilização da tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+table th {
+    background-color: rgb(8, 8, 48);
+    color: white;
+}
+
+table img {
+    width: 350px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilização do link */
+a {
+    display: inline-block;
+    margin-top: 20px;
+    color: #1a73e8;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+a:hover {
+    color: #d32f2f; /* Cor quando o mouse passa por cima */
+    text-decoration: underline;
+}
